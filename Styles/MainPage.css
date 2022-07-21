@@ -1,0 +1,72 @@
+html, body{
+    background-image: url(../Imgs/firehouse.jpg);
+    width: 100%;
+    height: 100%; 
+} 
+
+
+
+#generalInformation {
+    display: flex;
+    align-items: center;
+    height: 80%;
+}
+
+.welcome {
+    text-align: center;
+    color: yellow;
+}
+
+.header {
+  margin-bottom:50px;
+    
+}
+
+
+.welcome {
+    width: 75%;
+    font: helvetica, arial, helvetica;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fblogo{
+    color: yellow;
+}
+
+#footerInfo {
+    display: flex;
+    justify-content: space-around;
+    color: yellow;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid
+    
+
+        /* Height of the footer */
+    /* background-color: darkGray; */
+}
+
+.leftFooter {
+    margin: auto;
+    width: 33%;
+    padding-left: 150px;
+}
+
+.middleFooter {
+    margin: auto;
+    width: 33%;
+    align-items: center;
+    border-right: 1px solid;
+    border-left: 1px solid;
+
+}
+
+.rightFooter {
+    margin: auto;
+    width: 33%;
+}

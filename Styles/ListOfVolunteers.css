@@ -1,0 +1,12 @@
+tr td:last-child{
+    width:60%;
+}
+
+tr td:nth-child(5){
+    width: 20%;
+}
+
+.container{
+    align-items: center;
+    text-align: center;
+}
